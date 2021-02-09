@@ -45,6 +45,7 @@ class TestOne(BaseClass):
         success_message = confirmpage.getSuccessMessage().text
         log.info("Text received from application is" +success_message)
         assert "Success! Thank you!" in success_message
+        print(success_message)
 
 
 
