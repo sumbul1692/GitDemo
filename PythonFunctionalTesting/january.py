@@ -46,6 +46,8 @@ class TestOne(BaseClass):
         log.info("Text received from application is" +success_message)
         assert "Success! Thank you!" in success_message
         print(success_message)
+        print("hello")
+        print("bye bye")
 
 
 

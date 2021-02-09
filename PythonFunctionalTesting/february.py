@@ -13,4 +13,8 @@ for i in range(1,sheet.max_row+1):
 
         for j in range(2, sheet.max_column+1):
             Dict[sheet.cell(row=1, column=j).value] = sheet.cell(row=i, column=j).value
+            test_HomePage_data = [
+                {"firstname": "abc", "email": "abc@gmail.com", "password": "hello", "gender": "Female"},
+                {"firstname": "xyz", "email": "xyz@gmail.com", "password": "Hello", "gender": "Male"}]
+
 
